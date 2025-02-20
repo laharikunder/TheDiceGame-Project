@@ -1,0 +1,80 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+    padding: 5%;
+  }
+  
+  body {
+    background-color: rgb(13, 1, 99);
+  }
+  
+  h1 {
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #020202;
+    font-size: 7rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    margin-top: 0px;
+    font-size: 2rem;
+    color: #d9e868;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  #rollButton {
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #d8af77;
+  }
+  
+  .button p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .container img {
+      height: 50%;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  
